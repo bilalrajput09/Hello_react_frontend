@@ -1,108 +1,65 @@
-# Math Magician React App Project
-This project is a calculator app called Math-Magician that allows users to perform simple arithmetic calculations.
-
-<a name="readme-top"></a>
-
-<!--
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
 <div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
 
-  <h3><b></b></h3>
+  <h3><b>Hello react front-end</b></h3>
 
 </div>
 
-<!-- TABLE OF CONTENTS -->
+## Server
+
+[Link to back-end](https://github.com/Yacoubou-seidou/hello-rails-back-end)
 
 # 📗 Table of Contents
 
-- [📖 About the Project](#about-project)
-  - [🛠 Built With](#built-with)
-    - [Tech Stack](#tech-stack)
-    - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
-- [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
-  - [Prerequisites](#prerequisites)
-  - [Install](#install)
-  - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
-- [👥 Authors](#authors)
-- [🔭 Future Features](#future-features)
-- [🤝 Contributing](#contributing)
-- [⭐️ Show your support](#support)
-- [🙏 Acknowledgements](#acknowledgements)
-- [❓ FAQ (OPTIONAL)](#faq)
-- [📝 License](#license)
+- [📗 Table of Contents](#-table-of-contents)
+- [📖 \[hello-react-front-end\] ](#-hello-react-front-end-)
+  - [🛠 Built With ](#-built-with-)
+    - [Tech Stack ](#tech-stack-)
+    - [Key Features ](#key-features-)
+  - [💻 Getting Started ](#-getting-started-)
+    - [Prerequisites](#prerequisites)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [Usage](#usage)
+    - [Build for production](#build-for-production)
+    - [Run tests](#run-tests)
+  - [👥 Authors ](#-authors-)
+  - [🔭 Future Features ](#-future-features-)
+  - [🤝 Contributing ](#-contributing-)
+  - [⭐️ Show your support ](#️-show-your-support-)
+  - [🙏 Acknowledgments ](#-acknowledgments-)
+  - [📝 License ](#-license-)
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Math Magician React App Project<a name="Math Magician React App Project"></a>
+# 📖 [hello-react-front-end] <a name="about-project"></a>
 
-> This project is a calculator app called Math-Magician that allows users to perform simple arithmetic calculations. It was built using React, a popular JavaScript library for building user interfaces. 
+**[hello-react-front-end]** It is a front end app for display greeting fetch from a backend server.
 
-**Math Magician React App Project** is a web project where i test my React programming skills.
-
-## 🛠 Built With <a name="built-with"></a>
-
-> VS code
-> React
-
+## 🛠 Built With <a name="HTML, CSS, Javascript, React & redux"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> This is a web project.
 
 <details>
   <summary>Client</summary>
   <ul>
-    <li><a href="https://javascript.info/">index.js</a>Javascript</li>
-  </ul>
-
-  <ul>
-    <li><a href="https://react.org/">react.js</a>React</li>
+    <li><a href="https://html.com/#What_is_HTML">"HTML"</a></li>
+    <li><a href="https://html.com/css/#What_is_CSS">"CSS"</a></li>
+    <li><a href="https://www.javascript.com/">"Javascript"</a></li>
+    <li><a href="https://fr.legacy.reactjs.org/">"React"</a></li>
+    <li><a href="https://redux.js.org/introduction/getting-started">"Redux"</a></li>
   </ul>
 </details>
 
-<!-- Features -->
-
 ### Key Features <a name="key-features"></a>
 
-> Math-Magician provides the following features:
-
-Addition, subtraction, multiplication, and division of two numbers.
-Clearing the input and output fields.
-Displaying the result of the calculation.
-
-<!-- LIVE DEMO -->
-
-<!-- ## 🚀 Live Demo <a name="live-demo"></a> -->
-
-<!-- - [Live Demo Link](/) -->
+- [x] Created a web app using react-redux
+- [x] Display Greeting
+- [x] Used React and Redux technology.
+- [x] Used `fetch` to fetch data from the API.
+- [x] Used store, actions and reducers in React.
+- [x] Used React hooks.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
@@ -112,48 +69,73 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-### Installation
-To get started with Math-Magician, follow these steps:
+- Text editor , example vscode
+- Navigator, example chrome
+- Node.js in your computer
+
+### Setup
+
+Clone this repository to your desired folder:
+
+```
+  git clone  https://github.com/bilalrajput09/Hello_react_frontend.git
+  cd hello-react-front-end
+```
+
+```
+  also_need_back_end_server:
+  git clone https://github.com/bilalrajput09/Hello_rails_backend.git
+  Follow instruction in the readme.md file
+```
+
+### Install
+
+Install this project with:
 
 ```sh
-Clone the repository to your local machine.
-Navigate to the project directory in your terminal.
-Run npm install to install the project dependencies.
-Run npm start to start the development server.
-Open http://localhost:3000 to view the app in your browser.
+  npm install
 ```
 
 ### Usage
 
-To run the project, execute the following command:
+```
+1. download the project from clone
+2. Install all dependencies using *npm install*
+3. Run *npm start*
+4. You can see it in the browser
+```
 
-```sh
-  Run the app by running `npm start` in the terminal
+### Build for production
+
+```
+npm run build
 ```
 
 ### Run tests
 
+- ### Linter Tests
+
 To run tests, run the following command:
 
-Example command:
+To check for html errors run:
 
 ```sh
-    npm test
+  npx hint .
 ```
 
-### Deployment
-
-You can deploy this project using:
-
-Example:
+To check for css errors run:
 
 ```sh
-github pages
+  npx stylelint "**/*.{css,scss}"
+```
+
+To check for js errors run:
+
+```sh
+  npx eslint .
 ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
 
@@ -169,9 +151,9 @@ github pages
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Future enhancements to this app could include:
-- Integration with other APIs or databases
-- Improved styling and user interface design
+- [x] Add test to the project using jest
+- [x] Add the live demo for the project
+- [x] Add Styles
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -179,7 +161,9 @@ github pages
 
 ## 🤝 Contributing <a name="contributing"></a>
 
-Contributions to this project are welcome. To contribute, please fork this repository and submit a pull request with your changes.
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issue page](https://github.com/bilalrajput09/Hello_react_frontend/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -187,7 +171,7 @@ Contributions to this project are welcome. To contribute, please fork this repos
 
 ## ⭐️ Show your support <a name="support"></a>
 
-If you like this project, follow and contact me back.
+If you like this feel free to follow me on github and give this project a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -195,22 +179,9 @@ If you like this project, follow and contact me back.
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank microverse community and my coding partner for their dedicated time to encourage me achieve the best. 
+- Thanks to the Microverse team for the great curriculum.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **Question_1: Have you used linters to check for bugs?**
-
-  - yes
-
-- **Question_2: Do the project use database?**
-
-  - Answer_2: not at the moment. To be used as we scale the project
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
