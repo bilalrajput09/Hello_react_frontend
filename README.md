@@ -6,7 +6,7 @@
 
 ## Server
 
-[Link to back-end](https://github.com/Yacoubou-seidou/hello-rails-back-end)
+[Link to back-end](https://github.com/bilalrajput09/Hello_rails_backend)
 
 # 📗 Table of Contents
 
